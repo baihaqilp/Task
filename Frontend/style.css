@@ -12,6 +12,7 @@
 .content{
     background: #EDF1F2;
     width: 100%;
+    margin-right: 0;
 }
 
 .content .box{
@@ -22,7 +23,6 @@
 
 .title-box{
     height: 50px;
-    width: 100%;
     background: #364561;
     color: white;
     padding: 20px 0 5px 10px;
@@ -56,5 +56,4 @@ button
     border: none;
     outline:none;
 }
-
 
