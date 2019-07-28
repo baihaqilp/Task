@@ -4,13 +4,77 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
-<body>
-    <div class="header"></div>
-    <div class="content">
-
+<body style="background: #EDF1F2">
+    <div class="header">
+        <div class="box"><input type="image" src="images/x.png" name="CloseForm" class="btnClose" id="CloseForm" style="width: 20px;"/></div>
+        <div class="box" style="display: table-cell; vertical-align: middle; margin-left: 20cm; size: 10px;">Create</div>
+        <div class="box" style="display: table-cell; vertical-align: middle;"><img src="images/arrow-point-to-right_black.png" alt="" style="width: 20px"></div>
+        <div class="box" style="display: table-cell; vertical-align: middle;"><b>Compose</b></div>
+        <div class="box" style="margin-left: 15cm; padding-top: 15px;">
+            <input type="image" src="images/Simpan.PNG"/>
+            <input type="image" src="images/publish.PNG"/>
+        
+        </div>
     </div>
+    <div class="content">
+        <div class="content box" style="width: 20%; ">
+            <div class="title-box" >Setting</div>
+            <div class="social">
+                <div id="box">
+                    <table border="1">
+                        <tr >
+                            <td style="padding:15px;">&nbsp; Choose Social Media</td>
+                        </tr>
+                        <tr style="padding: 5px;">
+                            <td>
+                                <div style="float: none; width: 100%;">
+                                <img src="images/circle-App-Twitter-icon.png" alt="" style="width: 30px; margin:25px 5px 10px 30px; float: left;">
+                                <img src="images/dropdown.PNG" alt="" style="margin:20px 5px 10px 5px; float: left;">
+                                <img src="images/trashgrey.PNG" alt="" style="margin:25px 5px 10px 20px; float: left;">
+                                </div>
+                                <div style="float: none;"><button>Add</button></div>
+                            </td>
+                        </tr>
+                    </table>    
+                </div>
+            </div>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Campaign Name <img src="images/redstarblue.PNG" alt="" style="width: 10px;">
+            <input type="text" placeholder="Masukkan Nama Campaign" style="width: 79%; margin: 10px 15px 10px 30px; height:40px;">
+
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Scheduler &nbsp;<img src="images/question-mark.png" alt="" style="width: 15px;">
+            <button style="width: 10%;margin: 0 0 0 0;float:right;background: #EDF1F2; border: 2px solid #BECECE;color:black; margin-right: 45px;">Off</button><button style="margin: 0;width: 10%;float:right;background: #364561; border: 2px solid #BECECE;">On</button>
+            <input type="text" placeholder="2019-07-28      05:00" style="width: 79%; margin: 10px 15px 10px 30px; height:40px;">
+
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tag &nbsp;<img src="images/question-mark.png" alt="" style="width: 15px;">
+            <input type="text" placeholder="Buat atau Pilih Tag" style="width: 79%; margin: 10px 15px 10px 30px; height:40px;"><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+        </div>
+
+        <div class="content box" style="width: 45%;padding: 10px;">
+            <div class="social" style="width: 93%">
+                <input type="image" src="images/left_arrow_black.PNG" style="float: left; width:58px;margin-left: 300px;">
+                <input type="image" src="images/right arrow black.PNG" style="float: left; width:50px;">
+                <input type="image" src="images/trashblack.PNG" style="float: left; width:50px;">
+                     <img src="images/images.PNG" alt="" style="margin: 0;">
+                     <input type="image" src="images/arrow_Grey.PNG" alt="" style="margin-bottom: 120px;">
+                <img src="images/rule.PNG" alt="">
+
+            </div>
+
+            <div class="social" style="width: 93%;padding: 10px;">
+               <textarea name="comment" id="coment" cols="50" rows="10" style="margin: 20px 0px 0 30px; font-size: 25px; resize: none; border-radius: 8px;">Halo teman-teman, ini nih tas terbaru kita yang pernah kita janjikan untuk rilis bulan ini. Tuk cek BIO :)</textarea>
+                &nbsp;&nbsp;&nbsp;&nbsp;280 <div id="savedC" style="float: right;">Saved Caption <img src="images/plus icon..PNG" alt="" style="width: 30px; margin= 0 30px 20px 0"></div>
+            </div>
+
+            <Button style="float:right; width:150px;; ">Update Preview</Button>
+        </div>
+        <div class="content box" style="width: 30%;">
+                <div class="title-box">Setting</div>
+        </div>
+    </div>
+
     
 </body>
 </html>
